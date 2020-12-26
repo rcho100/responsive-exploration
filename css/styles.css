@@ -4,7 +4,17 @@
     font-family: 'Ubuntu', sans-serif;
  */
  
- header {
-     text-align: center;
- }
- 
+header {
+    text-align: center;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list-item {
+    margin: 0 1em;
+}

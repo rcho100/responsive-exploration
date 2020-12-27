@@ -3,7 +3,24 @@
     font-family: 'Lora', serif;
     font-family: 'Ubuntu', sans-serif;
  */
+
+/* Typography */
  
+h1 {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    color: #143774;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.subtitle {
+    font-weight: 700;
+    color: #1792d2;
+    font-size: .75rem;
+    margin: 0;
+}
+
 header {
     text-align: center;
 }

@@ -33,7 +33,6 @@ Layout
 ================= */
 
 header {
-    text-align: center;
     padding: 2em 0;
     background-color: #f8f8f8;
 }
@@ -61,7 +60,7 @@ and then use modifier classes like .container-nav */
 }
 
 .nav-list-item {
-    margin: 0 1em;
+    margin-left: 2em;
 }
 
 .nav-link {

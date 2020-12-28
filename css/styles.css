@@ -38,6 +38,19 @@ header {
     background-color: #f8f8f8;
 }
 
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+/* will be using .container for other areas too so keeping that as it 
+and then use modifier classes like .container-nav */
+
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
 /* navigation */
 
 .nav-list {

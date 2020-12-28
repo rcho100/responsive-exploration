@@ -9,8 +9,10 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
-/* Typography */
- 
+/* =================
+Typography
+================= */
+
 h1 {
     font-family: 'Lora', serif;
     font-weight: 400;
@@ -26,11 +28,17 @@ h1 {
     margin: 0;
 }
 
+/* =================
+Layout
+================= */
+
 header {
     text-align: center;
     padding: 2em 0;
     background-color: #f8f8f8;
 }
+
+/* navigation */
 
 .nav-list {
     list-style: none;

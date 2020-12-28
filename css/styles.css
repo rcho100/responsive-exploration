@@ -42,3 +42,14 @@ header {
 .nav-list-item {
     margin: 0 1em;
 }
+
+.nav-link {
+    text-decoration: none;
+    color: #707070;
+    font-weight: 700;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #1792d2;
+}

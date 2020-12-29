@@ -50,6 +50,16 @@ and then use modifier classes like .container-nav */
     justify-content: space-between;
 }
 
+@media (max-width: 675px) {
+    .container-nav {
+        flex-direction: column;
+    }
+    
+    header {
+        text-align: center;
+    }
+}
+
 /* navigation */
 
 .nav-list {
@@ -81,4 +91,15 @@ and then use modifier classes like .container-nav */
 
 .current-page:hover {
     color: #707070;
+}
+
+@media (max-width: 675px) {
+    .nav-list {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .nav-list-item {
+        margin: .5em 0;
+    }
 }

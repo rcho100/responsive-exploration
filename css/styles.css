@@ -28,6 +28,10 @@ h1 {
     margin: 0;
 }
 
+strong {
+    font-weight: 700;
+}
+
 /* h1 subtitle */
 .subtitle {
     font-weight: 700;

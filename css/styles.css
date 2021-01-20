@@ -82,6 +82,7 @@ Layout
 header {
     padding: 2em 0;
     background-color: #f8f8f8;
+    text-align: center;
 }
 
 .container {
@@ -94,16 +95,21 @@ and then use modifier classes like .container-nav */
 
 .container-flex {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
 
-@media (max-width: 675px) {
-    .container-nav {
-        flex-direction: column;
+@media (min-width: 675px) {
+    .container-flex {
+        flex-direction: row;
+    }
+
+    main {
+        width: 75%;
     }
     
-    header {
-        text-align: center;
+    aside {
+        width: 20%;
     }
 }
 
@@ -138,14 +144,6 @@ and then use modifier classes like .container-nav */
 
 .current-page:hover {
     color: #707070;
-}
-
-main {
-    width: 75%;
-}
-
-aside {
-    width: 20%;
 }
 
 @media (max-width: 675px) {

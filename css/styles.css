@@ -87,7 +87,7 @@ header {
 /* will be using .container for other areas too so keeping that as it 
 and then use modifier classes like .container-nav */
 
-.container-nav {
+.container-flex {
     display: flex;
     justify-content: space-between;
 }

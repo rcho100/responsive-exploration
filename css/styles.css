@@ -28,6 +28,15 @@ h1 {
     margin: 0;
 }
 
+a {
+    color: #1792d2;
+}
+
+a:hover,
+a:focus {
+    color: #143774;
+}
+
 strong {
     font-weight: 700;
 }

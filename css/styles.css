@@ -11,6 +11,11 @@
     font-weight: 300;
 }
 
+img {
+    max-width: 100%;
+    display: block;
+}
+
 /* =================
 Typography
 ================= */
@@ -133,6 +138,14 @@ and then use modifier classes like .container-nav */
 
 .current-page:hover {
     color: #707070;
+}
+
+main {
+    width: 75%;
+}
+
+aside {
+    width: 20%;
 }
 
 @media (max-width: 675px) {
